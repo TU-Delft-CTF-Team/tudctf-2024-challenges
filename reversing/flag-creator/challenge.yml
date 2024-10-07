@@ -1,0 +1,24 @@
+author: maxdem
+category: reversing
+description: I stole the binary used to generate flags, unfortunately it never prints
+  it. Can you help me?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/flag-creator
+flags:
+- TUDCTF{ju5t-1n7erc3pt-1t}
+host: null
+image: null
+name: Flag creator
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

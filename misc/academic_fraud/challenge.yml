@@ -1,0 +1,25 @@
+name: Academic Fraud
+author: TechnologicNick
+category: misc
+description: I need to write my CSE3000 Research Project paper, but I was assigned
+  Andy as my examiner. Anything I type is detected as plagiarism. Can you help me
+  out?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{un1c0d3_n0rm4l1zat10n_ftw}
+state: visible
+version: '0.1'
+files:
+- dist/academic_fraud.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 1337
+connection_info: nc {{host}} {{port}}

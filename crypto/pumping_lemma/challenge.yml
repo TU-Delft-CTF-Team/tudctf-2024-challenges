@@ -1,0 +1,25 @@
+name: Pumping Lemma
+author: ksaweryr
+category: crypto
+description: "\u2200\u2203\u2200\u2203"
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{pump1ng_l3mm4_f0r_r3gul4r_l4ngu4g35_c0nt3xt_fr33_l4ngu4g35_4nd_sha256_h4sh35}
+files:
+- dist/pumping_lemma.tgz
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+tags:
+- intermediate
+connection_info: http://{{host}}:{{port}}/

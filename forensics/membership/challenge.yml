@@ -1,0 +1,25 @@
+author: ksaweryr
+category: forensics
+description: The membership problem, but it's not maths nor theoretical computer science.
+  If only there was a tool that does everything theoretically allowed by the format
+  specifications...
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/flag.png.gz
+flags:
+- TUDCTF{WHY_D035NT_GUNZ1P_3XTR4CT_T0_MULT1PL3_F1L35?}
+host: null
+image: null
+name: Membership
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- intermediate

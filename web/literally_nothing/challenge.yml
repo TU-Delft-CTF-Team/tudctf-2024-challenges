@@ -1,0 +1,25 @@
+name: Literally nothing
+author: martin
+category: web
+description: There's literally nothing on this website. Figuratively.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{the3res_l1k3_l1ter4lly_n0thing_f4m}
+state: visible
+version: '0.1'
+files:
+- dist/literally_nothing.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8080
+connection_info: http://{{host}}:{{port}}/
+tags:
+- beginner

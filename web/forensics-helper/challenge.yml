@@ -1,0 +1,26 @@
+name: Forensics Helper
+author: martin
+category: web
+description: I found a security tool to help you in your forensics challenges. But
+  is the security tool itself secure?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{th3_m0st_s3cure_s3cur17y_t00l}
+state: visible
+version: '0.1'
+files:
+- dist/forensics-helper.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8080
+connection_info: http://{{host}}:{{port}}/
+tags:
+- easy

@@ -1,0 +1,25 @@
+name: Exotic Cookbook
+author: Bryan
+category: crypto
+description: Gordon Ramsay has been real quiet since these recipes dropped.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{c3r34l_b4f0r3_m1lk_3nj0y3r}
+state: visible
+version: '0.1'
+files:
+- dist/source.py
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+tags:
+- easy
+connection_info: nc {{host}} {{port}}

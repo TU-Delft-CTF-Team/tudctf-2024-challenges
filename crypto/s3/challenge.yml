@@ -1,0 +1,27 @@
+name: S3
+author: rstular
+category: crypto
+description: We have deployed a secure script runner that is only capable of running
+  one script. The flag is surely safe!
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{n3ver_d0_y0ur_own_hash1ng_its_4_b4d_id3a}
+state: visible
+version: '0.1'
+files:
+- dist/secure-script-service.py
+- dist/allowed_script.py
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+tags:
+- beginner
+connection_info: nc {{host}} {{port}}

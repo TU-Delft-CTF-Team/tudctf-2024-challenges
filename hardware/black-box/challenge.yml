@@ -1,0 +1,22 @@
+name: Black Box
+author: ksaweryr
+category: hardware
+description: Ready to solve a sourceless hardware challenge? Flag format is TUDCTF{[A-Z0-9_]+}.
+  You have to wrap the flag in TUDCTF{} yourself.
+value: 500
+type: ecsc
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{WH0_PUT_M15C_1N_HW}
+state: visible
+version: '0.1'
+tags:
+- easy
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50

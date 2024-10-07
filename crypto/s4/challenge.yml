@@ -1,0 +1,27 @@
+name: S4
+author: rstular
+category: crypto
+description: Seems like the extra knowledge that we've given you was a bit too much.
+  This time, we've changed the script, and you're not getting any information about
+  it.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{its_st1ll_4_b4d_id3a_what_d1d_you_exp3ct}
+state: visible
+version: '0.1'
+files:
+- dist/super-secure-script-service.py
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+tags:
+- intermediate
+connection_info: nc {{host}} {{port}}

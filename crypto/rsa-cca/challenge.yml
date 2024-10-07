@@ -1,0 +1,26 @@
+name: Really Secure Arrangement
+author: maxdem
+category: crypto
+description: RSA is really secure, so I will let you encrypt and decrypt with my private
+  key as many times as you want :).
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{h0m0morph1sm-g03s-brrr}
+state: visible
+version: '0.1'
+files:
+- dist/source.py
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+tags:
+- easy
+connection_info: nc {{host}} {{port}}

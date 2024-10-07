@@ -1,0 +1,26 @@
+author: ksaweryr
+category: forensics
+description: We found even more very old routers at [LOCATION REDACTED]. This time
+  we didn't have a JTAG cable, so we couldn't dump the firmware. At least we could
+  connect to the admin panel, if we could crack the wifi password... Given the frames
+  we collected during the attack, can you recover the key? The flag is the key represented
+  as hexadecimal digits with capital letters wrapped in TUDCTF{} (i.e., if the key
+  (in ASCII) is "?@ABC", the flag is "TUDCTF{3F40414243}").
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/output.cap
+flags:
+- TUDCTF{DDE4E548F0}
+host: null
+image: null
+name: Why Even Pretend?
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'

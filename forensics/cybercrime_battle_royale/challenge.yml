@@ -1,0 +1,27 @@
+author: martin
+category: forensics
+description: "I want to get the new Fortnite Skibidi Toilet skin! It's only 39,90\u20AC\
+  \ but my mum doesn't want to buy it for me! She keeps a photo of her credit card\
+  \ in an encrypted zip file. I know she uses the PIN code of her card as the password,\
+  \ but she doesn't want to tell it to me! That's so unfair, please help me get the\
+  \ new Skibidi Toilet skin!!!!!"
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/card.zip
+flags:
+- TUDCTF{01189998819991197253}
+host: null
+image: null
+name: Cybercrime Battle Royale
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

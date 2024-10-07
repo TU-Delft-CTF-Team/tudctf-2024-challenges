@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prediction</title>
+    <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Prediction</h1>
+    <p>
+      The classifier has determined that the animal in the photo is a
+      <strong>{{ prediction }}</strong>.
+    </p>
+    <p>
+      <a href="{{ url_for('index') }}">Back to home</a>
+    </p>
+  </body>
+</html>

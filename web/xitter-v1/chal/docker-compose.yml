@@ -1,0 +1,7 @@
+services:
+  app:
+    build:
+      context: .
+    restart: always
+    ports:
+      - "9990:8880/tcp"

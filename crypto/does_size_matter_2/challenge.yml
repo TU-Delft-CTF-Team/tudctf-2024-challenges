@@ -1,0 +1,23 @@
+author: ksaweryr
+category: crypto
+description: I admit, my flag is small, but that doesn't change anything, right?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/challenge.txt
+flags:
+- TUDCTF{wh0_n33d5_d_4nyw4y5}
+host: null
+image: null
+name: Does size matter 2?
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

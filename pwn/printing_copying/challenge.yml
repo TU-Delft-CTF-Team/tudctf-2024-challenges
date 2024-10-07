@@ -1,0 +1,26 @@
+name: Printing & Copying
+author: krloer
+category: pwn
+description: Behold, the greatest printer service you have ever seen. Treat it with
+  care.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{y0u_m4de_th3_pr1nt3r_3xpl0d3}
+files:
+- dist/printing_and_copying.tgz
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- medium

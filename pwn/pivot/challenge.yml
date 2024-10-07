@@ -1,0 +1,26 @@
+name: PIVOOOT!!!
+author: krloer
+category: pwn
+description: If it looks to big to fit, acts to big to fit and sounds to big to fit,
+  it is probably an overflow.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{sh0uldve_just_g0n3_t0_IK3A}
+files:
+- dist/pivot.tgz
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- intermediate

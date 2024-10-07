@@ -1,0 +1,5 @@
+/.venv/
+/_scripts/
+__pycache__/
+*.pyc
+*.pyo

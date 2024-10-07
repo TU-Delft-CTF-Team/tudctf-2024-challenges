@@ -1,0 +1,25 @@
+author: rstular
+category: forensics
+description: The universe has dispatched a squad of Troubling Assassins to track down
+  students in Brazil. They're so confident in themselves, they even published a slide
+  deck about it! Though it seems like there's a secret lying within...
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/argentina_adventures.pptx
+flags:
+- TUDCTF{z1p_th3_3c0n0my_up_and_0ff_we_g0}
+host: null
+image: null
+name: Argentina Adventures
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- easy

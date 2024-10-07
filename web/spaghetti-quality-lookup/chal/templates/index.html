@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaghetti Quality Lookup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://media1.tenor.com/m/kU2O9lHOH5cAAAAd/italian-nightmare-webpac.gif');
+            background-color: rgba(255,255,255,0.75);
+            background-blend-mode: lighten;
+        }
+        .container {
+            background-color: white;
+            border-radius: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5 p-5">
+        <h1 class="text-center">🤌 Spaghetti Quality Lookup 🤌</h1>
+        <p class="text-center">Look up the qualities of your favourite types of spaghetti!</p>
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="alert alert-warning mt-3">
+                {{ messages[0] }}
+            </div>
+        {% endif %}
+        {% endwith %}
+
+        <form action="/" method="GET" class="mt-4 input-group">
+            <input class="form-control" type="text" name="query" placeholder="Search..." value="{{query}}">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+
+        {% if results %}
+            <div class="mt-5">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Spaghetti</th>
+                            <th>Qualities</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for spaghetti, qualities in results %}
+                            <tr>
+                                <td>{{ spaghetti }}</td>
+                                <td>{{ qualities }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

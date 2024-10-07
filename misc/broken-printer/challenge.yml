@@ -1,0 +1,26 @@
+name: Broken Printer
+author: rstular
+category: misc
+description: What? Someone removed the printing functionality from my printer! Can
+  you fix it?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{th3re_is_always_an0th3r_w4y}
+state: visible
+version: '0.1'
+files:
+- dist/printer.py
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- beginner

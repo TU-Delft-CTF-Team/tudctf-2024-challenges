@@ -1,0 +1,25 @@
+name: My dog ate my homework
+author: martin
+category: misc
+description: My dog ate my QR code. I then accidentally ran it over with my bike.
+  And then I spilled my coffee on it. Accidents happen. Can you help me recover my
+  flag?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/qr_code.jpg
+flags:
+- TUDCTF{mmm_yummy_QR_CoD3}
+host: null
+image: null
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- easy

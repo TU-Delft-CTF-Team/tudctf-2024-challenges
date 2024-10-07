@@ -1,0 +1,27 @@
+author: maxdem
+category: crypto
+description: I encrypted the flag with RSA, but my secret primes are not really the
+  same size. Does it really matter? To solve this challenge, it's recommended do download
+  PyCryptodome. The flag is a string, but it was encoded into a number usable in the
+  cipher using the function `bytes_to_long`.
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/cipher.txt
+- dist/source.py
+flags:
+- TUDCTF{f4ct0rization-b3c0mes-t00-easy}
+host: null
+image: null
+name: Does size matter?
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

@@ -1,0 +1,25 @@
+name: Shreksy
+author: dvos
+category: misc
+description: Make secure screenshots using this SaaS (Shrek as as Service)!
+value: 500
+type: kubernetes
+tags:
+- hard
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{ONLY_THE_AVATAR_MASTER_OF_ALL_4_CATEGORIES_COULD_HACK_THEM}
+state: visible
+version: '0.1'
+files:
+- dist/source.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5005
+connection_info: http://{{host}}:{{port}}/

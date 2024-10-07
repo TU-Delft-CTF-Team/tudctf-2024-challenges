@@ -1,0 +1,23 @@
+name: Hello Hardware
+author: ksaweryr
+category: hardware
+description: Enjoy this cool badge, you can take it home after the event :)
+value: 500
+type: ecsc
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{US1NG_U4RT_15_3553NT14L_1N_H4RDW4R3_H4CK1NG}
+files:
+- dist/hello_hardware.cpp
+state: visible
+version: '0.1'
+tags:
+- beginner
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50

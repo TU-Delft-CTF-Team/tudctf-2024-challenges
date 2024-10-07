@@ -1,0 +1,23 @@
+author: rstular
+category: misc
+description: Albert decided to take us on a wild goose chase. Track him down.
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/albert.pcapng
+flags:
+- TUDCTF{E_IS_M_TIMES_C_SQUARED_IN_MINECRAFT}
+host: null
+image: null
+name: Albert
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- intermediate

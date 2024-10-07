@@ -1,0 +1,22 @@
+author: martin
+category: stego
+description: There's more than meets the eye in the email with team information from
+  yesterday :)
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+flags:
+- TUDCTF{Y0U_f0Und_A_fl4g!}
+host: null
+image: null
+name: More than meets the eye
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

@@ -1,0 +1,26 @@
+name: Printer
+author: rstular
+category: misc
+description: I've managed to establish a connection to the printer. But I can't get
+  it to print the flag.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{0h_n0_my_print3r_15_h4ck3d}
+state: visible
+version: '0.1'
+files:
+- dist/printer.py
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- beginner

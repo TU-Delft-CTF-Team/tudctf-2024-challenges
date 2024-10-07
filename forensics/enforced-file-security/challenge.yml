@@ -1,0 +1,26 @@
+author: rstular
+category: forensics
+description: Stefan, our informant, has provided us with a valuable file on an USB
+  stick. However, no matter what we do, we can't seem to access it. However, we have
+  managed to secure a partial backup of his laptop. Can you help us out?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/backup.zip
+- dist/usb.bin
+flags:
+- TUDCTF{skid4d13_sk4d00d13_i_Love_st3fan}
+host: null
+image: null
+name: Enforced File Security
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- intermediate

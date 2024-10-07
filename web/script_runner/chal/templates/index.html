@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script Runner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+		<h1>Script Runner</h1>
+		<p>Upload a script and we'll run it!</p>
+		<p>
+			Allowed scripts:
+			<a href="/static/files/date.sh">date.sh</a>
+			<a href="/static/files/fortune.sh">fortune.sh</a>
+			<a href="/static/files/sus.py">sus.py</a>
+		</p>
+        <form action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+            <label for="file">Choose a file:</label>
+            <input type="file" id="file" name="file">
+            <button type="submit">Upload</button>
+        </form>
+
+        {% if output %}
+        <div class="output">
+            <h2>Output:</h2>
+            <pre>{{ output }}</pre>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

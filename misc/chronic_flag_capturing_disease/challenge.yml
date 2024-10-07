@@ -1,0 +1,25 @@
+name: Chronic Flag Capturing Disease
+author: Bryan
+category: misc
+description: Nice timing! I can't stop capturing flags, please capture this one for
+  me so I can go to sleep. Note that your solve script might take a while, even when
+  using a multithreaded solution.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{S1d3Ch4Nn3ls}
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- medium

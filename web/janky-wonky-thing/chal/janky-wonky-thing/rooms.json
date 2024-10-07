@@ -1,0 +1,40 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Hall A",
+      "building": "Echo",
+      "booking_whitelist": null,
+      "capacity": 697,
+      "image": "/static/room-images/hall_a.jpg",
+      "contains_flag": false
+    },
+    {
+      "id": 2,
+      "name": "Hall B",
+      "building": "Echo",
+      "booking_whitelist": null,
+      "capacity": 288,
+      "image": "/static/room-images/hall_b.jpg",
+      "contains_flag": false
+    },
+    {
+      "id": 3,
+      "name": "Auditorium",
+      "building": "Aula",
+      "booking_whitelist": null,
+      "capacity": 1000,
+      "image": "/static/room-images/auditorium.jpg",
+      "contains_flag": false
+    },
+    {
+      "id": 4,
+      "name": "Flag Room",
+      "building": "VMB",
+      "booking_whitelist": ["staff"],
+      "capacity": 1,
+      "image": "/static/room-images/flag_room.jpg",
+      "contains_flag": true
+    }
+  ]
+}

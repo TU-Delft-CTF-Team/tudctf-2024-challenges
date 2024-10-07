@@ -1,0 +1,24 @@
+author: martin
+category: osint
+description: I took this picture but I forgor where. Can you help me?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/kaas.jpg
+flags:
+- TUDCTF{despacito_hakuna_matata}
+connection_info: https://osint-challenge.tudc.tf/
+host: null
+image: null
+name: kaas?
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

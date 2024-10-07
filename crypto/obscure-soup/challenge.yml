@@ -1,0 +1,26 @@
+author: Bryan
+category: crypto
+description: These files are encrypted. I think, anyways. I don't really know what
+  that means, but the contents are illegible to me - so that must mean it's secure.
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/part1
+- dist/part2
+- dist/part3
+flags:
+- TUDCTF{3nc0d1ng_1s_n0t_3ncryp710n}
+host: null
+image: null
+name: Obscure soup
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

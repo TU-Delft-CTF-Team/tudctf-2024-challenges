@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Your Files</h2>
+<form method="POST" action="{{ url_for('upload') }}" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <input type="submit" value="Upload">
+</form>
+
+<ul>
+    {% for file in files %}
+        <li>
+            <a href="{{ url_for('download', user=session['username'], filename=file) }}">{{ file }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}

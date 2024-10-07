@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>404</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 60%;
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 24px;
+      }
+
+      img {
+        width: 100%;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>We could not find this page. But have a photo of a coati instead.</h1>
+      <img src="{{ url_for('static', path='/coati.jpg') }}" />
+    </div>
+  </body>
+</html>

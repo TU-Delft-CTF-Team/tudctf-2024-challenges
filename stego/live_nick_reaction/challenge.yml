@@ -1,0 +1,24 @@
+author: ksaweryr
+category: stego
+description: "Behold, the obligatory stego challenge\u2122! Nick was kinda confused\
+  \ when he saw it..."
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/live_nick_reaction.png
+flags:
+- TUDCTF{tr4n5mi55i0n_r3c3iv3d_g00d_j0b_4nd_s0rry_f0r_w45t1ng_y0ur_t1m3_35p3c14lly_w1th_th15_l0ng_f14g_y0u_h4v3_t0_r3typ3_:p}
+host: null
+image: null
+name: Live Nick Reaction
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- intermediate

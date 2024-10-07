@@ -1,0 +1,26 @@
+name: 2TP
+author: maxdem
+category: crypto
+description: OTP is perfectly secret, but if I let you reuse the key once it should
+  not be a big deal, right?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{kn0wn-pl4in7ext-4tt4ck}
+state: visible
+version: '0.1'
+files:
+- dist/source.py
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+tags:
+- beginner
+connection_info: nc {{host}} {{port}}

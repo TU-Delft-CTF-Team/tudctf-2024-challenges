@@ -1,0 +1,24 @@
+name: Good Luck, and Who Knows, Maybe Even Have a Little Bit Of Fun
+author: martin
+category: crypto
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{Donna_th3_Coati_Qu33n_d03s_n07_Und3rst4Nd_Pr0bab1l1stic_s1Gn4tUr3s}
+state: visible
+version: '0.1'
+files:
+- dist/good_luck_and_who_knows.py
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 50011
+tags:
+- intermediate
+connection_info: nc {{host}} {{port}}

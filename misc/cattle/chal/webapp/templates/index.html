@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Welcome to CATtle!</h1>
+    <p>
+      On this website, you can use our patented classifier to determine what
+      kind of animal you're currently looking at.
+    </p>
+    <p>
+      However, as we have detected intrusion attempts in the past, we have
+      beefed up our security, and protected our model with an inpenetrable
+      filter. Only
+      <a href="{{ url_for('read_allowed_photos') }}">certain photos</a> are now
+      allowed.
+    </p>
+
+    <h2>Upload a photo</h2>
+    <form
+      action="{{ url_for('upload_photo') }}"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="file" />
+      <input type="submit" value="Upload" />
+    </form>
+  </body>
+</html>

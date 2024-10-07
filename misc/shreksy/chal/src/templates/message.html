@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👹</text></svg>">
+    <title>Shreksy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ced700;
+            color: #5f620c;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        nav {
+            display: flex;
+            justify-content: right;
+            background-color: #5f620c;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #A2E05E;
+        }
+        .content {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            text-shadow: #ced700 1px 0 10px;
+        }
+        footer {
+            background-color: #5f620c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/screenshot">Screenshot</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/buy">Buy</a>
+    </nav>
+    <div class="content">
+        <h3>{{ message }}</h3>
+    </div>
+    <footer>
+        <p>&copy; 2024 Shreksy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

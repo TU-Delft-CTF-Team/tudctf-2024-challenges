@@ -1,0 +1,24 @@
+author: ksaweryr
+category: reversing
+description: I went to the forest to get some wood, unfortunately I shot myself in
+  the foot :/
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/lumberjack
+flags:
+- TUDCTF{tr33_4ut0mat4_&_stlHeLl}
+host: null
+image: null
+name: Lumberjack
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- intermediate

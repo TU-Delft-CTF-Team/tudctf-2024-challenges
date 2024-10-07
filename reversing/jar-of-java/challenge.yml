@@ -1,0 +1,26 @@
+author: rstular
+category: reversing
+description: Absolutely jarring behavior. We're on our way to the recycling center.
+  Perhaps we can give it away to some random stranger, if you can figure out what's
+  inside. <br /><i>Run the challenge by executing <code>java -jar jar-of-java.jar</code></i>
+  <br /><i>You might want to use a Java decompiler for this one.</i>
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/jar-of-java.jar
+flags:
+- TUDCTF{sp1nn1ng_4nd_sp1nn1ng-s04k3d_1n_l4mb-Ric3_everywh3r3}
+host: null
+image: null
+name: A jar of Java
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

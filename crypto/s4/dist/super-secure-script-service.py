@@ -1,0 +1,1 @@
+../chal/super-secure-script-service.py

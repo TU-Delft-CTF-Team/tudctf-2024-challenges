@@ -1,0 +1,23 @@
+name: Blind code
+author: Jacob
+category: misc
+description: What are those dots? Can you understand Shrek?
+value: 500
+type: ecsc
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{7h3_b16_bl1nd}
+files:
+- dist/blind-challenge.txt
+state: visible
+version: '1.0'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+tags:
+- beginner

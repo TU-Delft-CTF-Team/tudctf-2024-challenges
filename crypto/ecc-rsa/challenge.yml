@@ -1,0 +1,26 @@
+author: maxdem
+category: crypto
+description: I know that ECC is able to achieve high security levels with less bits.
+  Now I just need to generate primes with it and I can do very fast RSA!. (wrap flag
+  in TUDCTF{...})
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/source.sage
+- dist/output.txt
+flags:
+- TUDCTF{p4rt1al-kn0wl3dge-:D}
+host: null
+image: null
+name: ECC-RSA
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- hard

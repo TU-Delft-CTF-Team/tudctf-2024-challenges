@@ -1,0 +1,23 @@
+name: Weary watchdog
+author: Glenn
+category: hardware
+description: We got this watchdog to make sure no one is stealing any flags. Maybe
+  if you keep it busy for a while you can get away with taking one of the flags.
+value: 500
+type: ecsc
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{Th3_d0g_d0e5_n07_l1k3_y0u_5topp1ng_th3_ext3rn4l_0sc1ll4t0r}
+- TUDCTF{th3_d0g_w45_w34ry_ind33d}
+state: visible
+version: '0.1'
+tags:
+- hard
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50

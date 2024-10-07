@@ -1,0 +1,26 @@
+name: Flowing Over
+author: krloer
+category: pwn
+description: This should be fun, try not to overflow all of Delft while you're at
+  it...
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{1_r34lly_h0p3_n00n3_us3s_pwnt00ls_f0r_th1s}
+files:
+- dist/flowing_over.tgz
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- beginner

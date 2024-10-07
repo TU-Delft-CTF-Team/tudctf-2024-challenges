@@ -1,0 +1,26 @@
+name: The PIE is a Lie
+author: ksaweryr
+category: pwn
+description: My binary is position-independent, it uses address space layout randomization,
+  there's no way you can find the address of my shell function!
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{0k_but_th3r35_4_l34k}
+files:
+- dist/the_pie_is_a_lie.tgz
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- easy

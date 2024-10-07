@@ -1,0 +1,25 @@
+author: ksaweryr
+category: reversing
+description: 'I''ve made a DFA serving one purpose - accepting the flag - and exported
+  its unrecognizable representation using https://courses.ewi.tudelft.nl/acc/AutomatedCheckingComputer/.
+  Can you guess what the flag is? (note: wrap the flag in TUDCTF{})'
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/unrecognizable.txt
+flags:
+- TUDCTF{S3cUr1tyThr0ughObscur1ty}
+host: null
+image: null
+name: Automated Cracking Computer
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- easy

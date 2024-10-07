@@ -1,0 +1,25 @@
+author: ksaweryr
+category: reversing
+description: I've heard that branchless programming makes your code go brrr... very
+  fast - so I decided to speed up some of my Python code
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/challenge.py
+- dist/challenge.pickle
+flags:
+- TUDCTF{br4nch1355_r3v3r53_3ng1n33r1ng_ch4113ng3_1_h0p3_y0u_d0nt_h4t3_m3_t00_much_f0r_th15_:D}
+host: null
+image: null
+name: Branchless Programming
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- medium

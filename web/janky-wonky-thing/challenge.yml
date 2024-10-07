@@ -1,0 +1,26 @@
+name: Janky Wonky Thing
+author: rstular
+category: web
+description: The university is forcing us to use this janky wonky thing to book lecture
+  halls. We aren't even allowed to book the flag room anymore.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{j4nky_w0nky_th1ng_s3crets_sho0uld_b3_s3cr3ts}
+state: visible
+version: '0.1'
+files:
+- dist/handout.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8000
+connection_info: http://{{host}}:{{port}}/
+tags:
+- easy

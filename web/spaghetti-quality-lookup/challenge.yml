@@ -1,0 +1,25 @@
+name: Spaghetti Quality Lookup
+author: martin
+category: web
+description: Look up the qualities of your favourite types of spaghetti!
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{d0nt_c00k_sp4gh3tti_1n_a_p4n!}
+state: visible
+version: '0.1'
+files:
+- dist/spaghetti-quality-lookup.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8080
+connection_info: http://{{host}}:{{port}}/
+tags:
+- beginner

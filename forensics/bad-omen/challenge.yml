@@ -1,0 +1,25 @@
+author: rstular
+category: forensics
+description: We've received a misterious photograph of a strange sign. But we don't
+  know how else to describe it. Can you help us find out what the appropriate description
+  would be?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/IMG20240724095923.jpg
+flags:
+- TUDCTF{b4d_b4d_vall3y_1n_grece}
+host: null
+image: null
+name: Bad Omen
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

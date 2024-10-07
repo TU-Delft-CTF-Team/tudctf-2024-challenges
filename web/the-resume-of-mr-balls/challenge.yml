@@ -1,0 +1,25 @@
+author: nick
+category: web
+description: Instead of updating his resume in Word and applying for jobs, Mr. Balls
+  spent a month creating an integrated PDF development environment.
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/the-resume-of-mr-balls.zip
+flags:
+- TUDCTF{u_u53d_s0m30n3_els3s_p0c_d1dn7_y0u}
+host: null
+image: null
+name: The Resume of Mr. Balls
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+connection_info: http://the-resume-of-mr-balls.tudc.tf/
+tags:
+- intermediate

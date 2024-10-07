@@ -1,0 +1,27 @@
+name: Whois as a Service
+author: martin
+category: web
+description: We have jumped onto the SaaS bandwagon and are proud to present _WaaS
+  - Whois as a Service_. You can now run the `whois` command on the cloud for the
+  low price of 14.99 per month!
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{Th3_wh0is_s3rv1c3_n33ds_s0me_s3rvicing}
+state: visible
+version: '0.1'
+files:
+- dist/whois-as-a-service.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8080
+connection_info: http://{{host}}:{{port}}/
+tags:
+- beginner

@@ -1,0 +1,23 @@
+author: ksaweryr
+category: osint
+description: The notepad.tudc.tf domain holds many secrets, apparently including some
+  data in TXT format. Maybe you should *dig* to find some of those...?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files: []
+flags:
+- TUDCTF{TXT_15nt_ju5t_4_f1l3_3xt3n510n}
+host: null
+image: null
+name: Notepad in a Cloud
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

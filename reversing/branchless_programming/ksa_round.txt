@@ -1,0 +1,41 @@
+# Round {i}
+BINGET 19 # S.__getitem__
+BININT1 {i} # i
+TUPLE1
+REDUCE
+BINGET 20 # S.__setitem__
+BININT1 {i} # i
+BINGET 19 # S.__getitem__
+BINGET 16 # int.__mod__
+BINGET 15 # int.__add__
+DUP
+BINGET 23 # j
+BINGET 19 # S.__getitem__
+BININT1 {i} # i
+TUPLE1
+REDUCE
+TUPLE2
+REDUCE
+BINGET 22 # key.__getitem__
+BININT1 {imod} # i % 10
+TUPLE1
+REDUCE
+TUPLE2
+REDUCE
+BININT2 256
+TUPLE2
+REDUCE
+
+BINPUT 23
+TUPLE1
+REDUCE
+TUPLE2
+REDUCE
+POP
+BINPUT 24
+BINGET 20 # S.__setitem__
+BINGET 23 # j
+BINGET 24
+TUPLE2
+REDUCE
+

@@ -1,0 +1,1 @@
+User cookie is the username, base64-encoded.

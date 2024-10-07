@@ -1,0 +1,26 @@
+name: Command Zoo
+author: Bryan
+category: pwn
+description: Ask me about any of these four linux commands! Please don't ask about
+  others, I wouldn't know.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{N0_n33d_t0_kn0w_th3_c4n4ry_wh3n_y0u_h4v3_funct10n_p01nt3rs}
+files:
+- dist/command-zoo.tar.gz
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- medium

@@ -1,0 +1,23 @@
+author: ksaweryr
+category: reversing
+description: I really need those glasses so that I can See Sharp!
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/Glasses.exe
+flags:
+- TUDCTF{why_d0_j4v4_pr0gr4mm3r5_w34r_gl4ss35}
+host: null
+image: null
+name: Glasses
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

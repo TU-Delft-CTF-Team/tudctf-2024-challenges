@@ -1,0 +1,23 @@
+author: Bryan
+category: hardware
+description: We found a router at [LOCATION REDACTED]. Eagerly, we investigated this
+  router and suspected hidden vulnerabilities within its firmware. Can you find anything
+  intesting in the image?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/firmware.img
+flags:
+- TUDCTF{F1rmW4r3_An4lySis_1S_V3ry_c00l}
+host: null
+image: null
+name: Cool router
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'

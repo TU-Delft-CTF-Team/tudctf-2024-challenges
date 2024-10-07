@@ -1,0 +1,23 @@
+author: maxdem
+category: stego
+description: This totally random image is cool, but can you find the hidden flag?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/random_leaderboard.jpg
+flags:
+- TUDCTF{a-hug-7o-all-our-fr13nd5-at-VU}
+host: null
+image: null
+name: Weird flex, but ok
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- easy

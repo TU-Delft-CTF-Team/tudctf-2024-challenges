@@ -1,0 +1,26 @@
+name: "Web\u0161op"
+author: rstular
+category: web
+description: A new store is in town! It has a lot of interesting products and low
+  prices, but can you buy the flag?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{pray_to_the_bird_jesus_pray_to_the_rome_CEO}
+state: visible
+version: '0.1'
+files:
+- dist/challenge.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8898
+connection_info: http://{{host}}:{{port}}/
+tags:
+- beginner

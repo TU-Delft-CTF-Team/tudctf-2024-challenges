@@ -1,0 +1,273 @@
+CFE version 1.0.37-4.3 for BCM96348 (32bit,SP,BE)
+Build Date: 2006-12-04 10:42:18 (root@davo_devel3)
+DAVOLINK Boot ROM version: 2.3
+H/W version: 00
+
+Boot Address 0xbfc00000
+
+Initializing Arena.
+Initializing Devices.
+Flash ID - 0x1(0), 0x227e(1), 0x2210(e), 0x2200(f)
++++++++++++++ flash dev id : 0x22102200
+Flash Type :  M type
+Parallel flash device: name XXXX, id 0x2200, size 8192KB
+CPU type 0x29107: 256MHz, Bus: 128MHz, Ref: 32MHz
+Total memory: 16777216 bytes (16MB)
+
+Total memory used by CFE:  0x80401000 - 0x80524E90 (1195664)
+Initialized Data:          0x8041C8F0 - 0x8041E620 (7472)
+BSS Area:                  0x8041E620 - 0x80422E90 (18544)
+Local Heap:                0x80422E90 - 0x80522E90 (1048576)
+Stack Area:                0x80522E90 - 0x80524E90 (8192)
+Text (code) segment:       0x80401000 - 0x8041C8EC (112876)
+Boot area (physical):      0x00525000 - 0x00565000
+Relocation Factor:         I:00000000 - D:00000000
+
+Board IP address                  : 192.168.1.1:ffffff00
+Host IP address                   : 192.168.1.100
+Gateway IP address                :
+Run from flash/host (f/h)         : f
+Default host run file name        : vmlinux
+Default host flash file name      : bcm963xx_fs_kernel
+Boot delay (0-9 seconds)          : 1
+Board Id Name                     : DV2020
+Psi size in KB                    : 24
+Number of MAC Addresses (1-32)    : 11
+Base MAC Address                  : 00:1e:8c:47:7b:c0
+Ethernet PHY Type                 : Internal
+Memory size in MB                 : 16
+
+*** Press any key to stop auto run (1 seconds) ***
+Auto run second count down: 0
+Checking running image.....
+Running image good. Comparing running image to backup.....
+Two Images are same.
+Code Address: 0x80010000, Entry Address: 0x801ac018
+Decompression OK!
+Entry at 0x801ac018
+Closing network.
+Starting program at 0x801ac018
+Linux version 2.6.8.1 (root@jmchoi-desktop) (gcc version 3.4.2) #1 Thu Feb 21 21:40:49 KST 2013
++++++++++++++ flash dev id : 0x22102200
+Flash Type :  M type
+Parallel flash device: name XXXX, id 0x2200, size 8192KB
+DV2020 prom init
+CPU revision is: 00029107
+Determined physical RAM map:
+ memory: 00fa0000 @ 00000000 (usable)
+On node 0 totalpages: 4000
+  DMA zone: 4000 pages, LIFO batch:1
+  Normal zone: 0 pages, LIFO batch:1
+  HighMem zone: 0 pages, LIFO batch:1
+Built 1 zonelists
+Kernel command line: root=31:0 ro noinitrd console=ttyS0,115200
+brcm mips: enabling icache and dcache...
+Primary instruction cache 16kB, physically tagged, 2-way, linesize 16 bytes.
+Primary data cache 8kB 2-way, linesize 16 bytes.
+PID hash table entries: 64 (order 6: 512 bytes)
+Using 128.000 MHz high precision timer.
+Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Memory: 13312k/16000k available (1428k kernel code, 2668k reserved, 215k data, 76k init, 0k highmem)
+Calibrating delay loop... 254.77 BogoMIPS
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+Checking for 'wait' instruction...  unavailable.
+NET: Registered protocol family 16
+Total Flash size: 8192K with 135 sectors
+File system address: 0xbfc10100
+Can't analyze prologue code at 80173be4
+PPP generic driver version 2.4.2
+NET: Registered protocol family 24
+Using noop io scheduler
+bcm963xx_mtd driver v1.0
+brcmboard: brcm_board_init entry
+Invalid External Interrupt definition
+Serial: BCM63XX driver $Revision: 1.1.1.1 $
+ttyS0 at MMIO 0xfffe0300 (irq = 10) is a BCM63XX
+bcmxtmrt: Broadcom BCM6348B0 ATM Network Device v0.1 Feb 21 2013 21:39:54
+NET: Registered protocol family 2
+IP: routing cache hash table of 512 buckets, 4Kbytes
+TCP: Hash tables configured (established 512 bind 1024)
+ip_conntrack version 2.1 (125 buckets, 0 max) - 384 bytes per conntrack
+ip_tables: (C) 2000-2002 Netfilter core team
+NET: Registered protocol family 1
+NET: Registered protocol family 17
+Ebtables v2.0 registered
+NET: Registered protocol family 8
+NET: Registered protocol family 20
+802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+All bugs added by David S. Miller <davem@redhat.com>
+VFS: Mounted root (squashfs filesystem) readonly.
+Freeing unused kernel memory: 76k freed
+init started:  BusyBox v1.00 (2013.02.21-12:42+0000) multi-call binary
+Algorithmics/MIPS FPU Emulator v1.5
+
+
+BusyBox v1.00 (2013.02.21-12:42+0000) Built-in shell (msh)
+Enter 'help' for a list of built-in commands.
+
+
+Loading drivers and kernel modules...
+
+bcmxtmcfg: module license 'Proprietary' taints kernel.
+bcmxtmcfg: bcmxtmcfg_init entry
+adsl: adsl_init entry
+Broadcom BCMPROCFS v1.0 initialized
+Broadcom BCM6348B0 Ethernet Network Device v0.3 Feb 21 2013 21:39:48
+Config Ethernet Switch Through SPI Slave Select 0
+ethsw: found bcm5325e!
+dgasp: kerSysRegisterDyingGaspHandler: eth0 registered
+eth0: MAC Address: 00:1E:8C:47:7B:C0
+eth0 Link UP.
+Broadcom BCM6348B0 USB Network Device v0.4 Feb 21 2013 21:39:50
+usb0: MAC Address: 00 1E 8C 47 7B C1
+usb0: Host MAC Address: 00 1E 8C 47 7B C2
+PCI: Setting latency timer of device 0000:00:01.0 to 64
+PCI: Enabling device 0000:00:01.0 (0004 -> 0006)
+wl: srom not detected, using main memory mapped srom info (wombo board)
+wl0: wlc_attach: use mac addr from the system pool by id: 0x776c0000
+wl0: MAC Address: 00:1E:8C:47:7B:C3
+wl0: Broadcom BCM4318 802.11 Wireless Controller 4.150.10.15.cpe2.2
+dgasp: kerSysRegisterDyingGaspHandler: wl0 registered
+BcmAdsl_Initialize=0xC006C3F8, g_pFnNotifyCallback=0xC008CE54
+pSdramPHY=0xA0FFFFF8, 0xFEFFCFFF 0xFF8F7AE9
+AdslCoreSharedMemInit: shareMemAvailable=23248
+AdslCoreHwReset:  AdslOemDataAddr = 0xA0FF8A54
+dgasp: kerSysRegisterDyingGaspHandler: dsl0 registered
+ip_conntrack_pptp version 2.1 loaded
+ip_nat_pptp version 2.0 loaded
+ip_ct_h323: init success
+ip_nat_h323: init success
+ip_conntrack_rtsp v0.01 loading
+ip_nat_rtsp v0.01 loading
+
+==>   Bcm963xx Software Version: 3.10L.01.mgcp.faxrA2pB020f.d21k2   <==
+
+device usb0 entered promiscuous mode
+br0: port 1(usb0) entering learning state
+br0: topology change detected, propagating
+br0: port 1(usb0) entering forwarding state
+device eth0 entered promiscuous mode
+br0: port 2(eth0) entering learning state
+br0: topology change detected, propagating
+br0: port 2(eth0) entering forwarding state
+Setting SSID "Major domus"
+Setting country code using abbreviation: "CX"
+wlctl: Not Found
+wlctl: Not Found
+wlctl: Not Found
+channel 1 selected
+device wl0 entered promiscuous mode
+br0: port 3(wl0) entering learning state
+br0: topology change detected, propagating
+br0: port 3(wl0) entering forwarding state
+device eth0 left promiscuous mode
+br0: port 2(eth0) entering disabled state
+device eth0.8 entered promiscuous mode
+device eth0.9 entered promiscuous mode
+eth0.8: dev_set_promiscuity(master, 1)
+device eth0 entered promiscuous mode
+br0: port 2(eth0.8) entering learning state
+br0: topology change detected, propagating
+br0: port 2(eth0.8) entering forwarding state
+eth0.9: dev_set_promiscuity(master, 1)
+br0: port 4(eth0.9) entering learning state
+br0: topology change detected, propagating
+br0: port 4(eth0.9) entering forwarding state
+WAN(xDSL) interface create: nas_0_1_34!
+bcmxtmrt: MAC address: 00 1e 8c 47 7b c4
+WAN(xDSL) interface create: nas_0_0_32!
+bcmxtmrt: MAC address: 00 1e 8c 47 7b c5
+WAN(xDSL) interface create: nas_0_1_35!
+bcmxtmrt: MAC address: 00 1e 8c 47 7b c6
+--- Static Entries ---
+----------------------
+Endpoint: endpoint_init entry
+Endpoint: endpoint_init COMPLETED
+Starting the MGCP application with the following parameters:
+
+Call Agent IP address: 192.168.1.100
+Gateway name: DV201AM
+Interface name: br0
+Preferred codec: auto
+Country: NLD
+CID type: DEFAULT
+VOIP service providor:
+End point ID: aaln
+Start Channel no: 1
+Max Endpoint Number: 2
+CA UDP port number: 2727
+Client port number: 2427
+MGCP standard: RFC2705
+persistent event mode: on
+rxgain (to Network): 0
+txgain (to POTS): 0
+device driver log flag:
+static voice jitter buffer: 0
+max limit of voice jitter buffer: 100
+min limit of voice jitter buffer: 0
+target of voice jitter buffer: 0
+target of VBD jitter buffer: 0
+FAX manipulation enable: 0
+iptables: Bad rule (does a matching rule exist in that chain?)
+iptables: Bad rule (does a matching rule exist in that chain?)
+iptables: Bad rule (does a matching rule exist in that chain?)
+f_mgcp_trace    = 0
+logging_level  = 0
+f_trace_to_net = 0
+log_server     = 127.0.0.1
+log_port       = 5999
+00:00:36 Process 597 priority is 0
+00:00:36 Process 597: old priority 0, new priority -15
+00:00:36 Calling callClient
+00:00:36 GWCONFIG Data:
+00:00:36        CA_#1 Name  - ca@192.168.1.100
+00:00:36        CA_#2 Name  - ca@192.168.1.100
+00:00:36        GW Name     - DV201AM
+00:00:36        Interface name  - br0
+00:00:36 CALLCLIENT: Initializing endpoints
+00:00:36  HGCP read thread started with pid 601
+00:00:36 HGCP client starting on 192.168.1.1 port 2427
+****** preferred Codec = 0
+****** preferred Codec = 0
+****** preferred Codec = 0
+****** preferred Codec = 0
+
+
+
+mgzProtocol = 0, L/HU,L/HD,FXR/V21FLAG, MGCP 1.0 : 0x1007
+00:00:36 CALLCLIENT: Initializing endpoints
+00:00:36 Endpoint will be initialized for country NLD (country code = 11)
+kernel::endpoint_open
+kernel::endpoint_open COMPLETED
+00:00:36 Endpoint Event task started with pid 602...
+00:00:36 Endpoint Packet task started with pid 603 ...
+vrgendptCreate: capabilities.endptType = 0
+Original Supported Codec = 0x000CC03F
+vrgendptCreate: capabilities.endptType = 0
+Original Supported Codec = 0x000CC03F
+00:00:40 RestartTimer initialized to 3 s for index=0, endpt=0
+00:00:40 RestartTimer initialized to 3 s for index=1, endpt=1
+00:00:40  RTP read thread started with pid 610: RTPread
+00:00:40  RTP read thread started with pid 611: RTPread
+00:00:40  RTP read thread started with pid 612: RTPread
+00:00:40  RTP read thread started with pid 613: RTPread
+00:00:40  RTCP thread started with pid 614: RTCP
+00:00:40 rtpInit: RTCP task created, taskId = 8201
+00:00:40 RtpStreamCreate: rtpOpen: RTP port: 16384, Return code: 0, rtpHandle=0
+00:00:40 RtpStreamCreate: rtpOpen: RTP port: 16386, Return code: 0, rtpHandle=1
+00:00:40 RtpStreamCreate: rtpOpen: RTP port: 16388, Return code: 0, rtpHandle=2
+00:00:40 RtpStreamCreate: rtpOpen: RTP port: 16390, Return code: 0, rtpHandle=3
+00:00:40 CALLCLIENT: Initialization complete
+00:00:40 ccPublishEventCB: event 0
+00:00:43 RESTART TIMER ELAPSED! Sending first RSIP index=0, endpt=0
+00:00:43 RESTART TIMER ELAPSED! Sending first RSIP index=1, endpt=1
+snmp_main.c load config file fail
+The specified port is '0'
+br0: port 1(usb0) entering disabled state
+adapter hardware address 00:1e:8c:47:7b:c0
+
+*************** PPPoE magic seed=0x7f168f99
+
+00:01:04 Tdisc initialized to TdInit (1778ms)
+00:01:04 Tdisc initialized to TdInit (12972ms)

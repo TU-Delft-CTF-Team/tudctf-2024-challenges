@@ -1,0 +1,25 @@
+author: rstular
+category: forensics
+description: Our operatives have managed to intercept a secret report from the Coati
+  Intelligence Agency. However, it seems that the most important information has been
+  redacted. Can you help us recover it?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/secret_report.pdf
+flags:
+- TUDCTF{b4d_pdf_r3d4ct10n_s1nks_sh1ps}
+host: null
+image: null
+name: Coati Intelligence Agency
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

@@ -1,0 +1,26 @@
+name: Architect
+author: Bryan
+category: pwn
+description: We got access to this association's internal message board, can you find
+  a way to gain access to their internal servers?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{I_l0v3_B4ckW4rds_C0mp4t1Bility}
+state: visible
+version: '0.1'
+files:
+- dist/architect.tar.xz
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 1337
+connection_info: nc {{host}} {{port}}
+tags:
+- hard

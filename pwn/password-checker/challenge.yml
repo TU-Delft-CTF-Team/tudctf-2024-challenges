@@ -1,0 +1,27 @@
+name: Password Checker
+author: maxdem
+category: pwn
+description: We got access to a terminal that would give us a flag if the password
+  is correct, btu it seems like it never actually checks the input. Can you help us?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{y0ur-f1rst-buff3r-0v3rfl0w}
+state: visible
+version: '0.1'
+files:
+- dist/source.c
+- dist/flag.txt
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- beginner

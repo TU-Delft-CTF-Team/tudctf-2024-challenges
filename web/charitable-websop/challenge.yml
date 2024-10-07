@@ -1,0 +1,27 @@
+name: "The Charitable Web\u0161op"
+author: rstular
+category: web
+description: The store has been reworked. Some security bugs have been fixed. And
+  to get a grant from the government, we added a charity donation feature. Feel free
+  to use it.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{g00dw1ll_also_n33ds_s3cur1ty}
+state: visible
+version: '0.1'
+files:
+- dist/challenge.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8899
+connection_info: http://{{host}}:{{port}}/
+tags:
+- easy

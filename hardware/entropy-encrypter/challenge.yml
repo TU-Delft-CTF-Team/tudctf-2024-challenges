@@ -1,0 +1,25 @@
+name: Entropy Encrypter
+author: ksaweryr
+category: hardware
+description: I'm using a hardware random number generator, there's no way you can
+  guess the key I used to generate these passwords!
+value: 500
+type: ecsc
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{N0T_50_R4ND0M_NUM83R_G3N}
+- TUDCTF{n0t_s0_s3cur3_4ft3r_411!}
+files:
+- dist/entropy_encrypter.cpp
+state: visible
+version: '0.1'
+tags:
+- intermediate
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50

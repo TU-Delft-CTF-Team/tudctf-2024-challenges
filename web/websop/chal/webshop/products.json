@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Washington DC",
+      "price": 3,
+      "description": "Washington DC is the capital of the United States of America.",
+      "image": "washington.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bird Jesus",
+      "price": 9999,
+      "description": "Bird Jesus. Grant you special powers.",
+      "image": "bird_jesus.jpg"
+    },
+    {
+      "id": 3,
+      "name": "CEO of Rome",
+      "price": 1000,
+      "description": "CEO of Rome. The most powerful and influential person in the world.",
+      "image": "rome_ceo.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Coati",
+      "price": 100,
+      "description": "Coati. A small mammal native to South America.",
+      "image": "coati.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Shark",
+      "price": 250,
+      "description": "Shark. A large fish that lives in the sea.",
+      "image": "shark.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Flag",
+      "price": 10000,
+      "description": "Flag. A piece of cloth with a special design that is the symbol of a country.",
+      "image": "flag.jpg"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    restart: always
+    ports:
+      - "9990:8000/tcp"

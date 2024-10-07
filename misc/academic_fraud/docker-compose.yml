@@ -1,0 +1,7 @@
+services:
+  jail:
+    build: .
+    ports:
+      - "1337:1337"
+    environment:
+      - FLAG=TUDCTF{un1c0d3_n0rm4l1zat10n_ftw}

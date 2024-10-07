@@ -1,0 +1,25 @@
+name: Admin Panel A
+author: martin
+category: web
+description: Admins really like this panel.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{b4se64_1s_n0t_encryp710n}
+state: visible
+version: '0.1'
+files:
+- dist/admin-panel-a.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8080
+connection_info: http://{{host}}:{{port}}/
+tags:
+- beginner

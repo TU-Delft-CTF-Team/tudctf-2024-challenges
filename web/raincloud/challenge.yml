@@ -1,0 +1,25 @@
+name: RainCloud
+author: martin
+category: web
+description: The newest cloud storage solution for rainy days.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{its_R41ning_fl4gs_and_d0gs}
+state: visible
+version: '0.1'
+files:
+- dist/raincloud.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8080
+connection_info: http://{{host}}:{{port}}/
+tags:
+- beginner

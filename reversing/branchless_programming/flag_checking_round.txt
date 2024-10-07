@@ -1,0 +1,83 @@
+# Round {i}
+BINGET 16 # int.__mod__
+BINGET 15 # int.__add__
+BINGET 24 # i
+BININT1 1
+TUPLE2
+REDUCE
+BININT2 256
+TUPLE2
+REDUCE
+BINPUT 24
+
+BINGET 16 # int.__mod__
+BINGET 15 # int.__add__
+BINGET 23 # j
+BINGET 19 # S.__getitem__
+BINGET 24 # i
+TUPLE1
+REDUCE
+TUPLE2
+REDUCE
+BININT2 256
+TUPLE2
+REDUCE
+BINPUT 23
+
+BINGET 20 # S.__setitem__
+BINGET 23 # j
+BINGET 19 # S.__getitem__
+BINGET 24 # i
+TUPLE1
+REDUCE
+BINGET 20 # S.__setitem__
+BINGET 24 # i
+BINGET 19 # S.__getitem__
+BINGET 23 # j
+TUPLE1
+REDUCE
+TUPLE2
+REDUCE
+POP
+TUPLE2
+REDUCE
+
+BINGET 27 # bool.__and__
+BINGET 0 # result
+BINGET 26 # int.__eq__
+BINGET 7 # int.__xor__
+BINGET 19 # S.__getitem__
+BINGET 16 # int.__mod__
+BINGET 15 # int.__add__
+BINGET 19 # S.__getitem__
+BINGET 23 # j
+TUPLE1
+REDUCE
+BINGET 19 # S.__getitem__
+BINGET 24 # i
+TUPLE1
+REDUCE
+TUPLE2
+REDUCE
+BININT2 256
+TUPLE2
+REDUCE
+TUPLE1
+REDUCE
+BINGET 25 # flag.encode().__getitem__
+BINGET 15 # int.__add__
+BINGET 24 # i
+BININT -1
+TUPLE2
+REDUCE
+TUPLE1
+REDUCE
+TUPLE2
+REDUCE
+BININT1 {chr} # next char of encrypted flag
+TUPLE2
+REDUCE
+TUPLE2
+REDUCE
+BINPUT 0
+

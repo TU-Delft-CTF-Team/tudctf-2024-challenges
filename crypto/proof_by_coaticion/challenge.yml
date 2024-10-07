@@ -1,0 +1,26 @@
+name: Proof by Coatiction
+author: ksaweryr
+category: crypto
+description: Sure, I can sign stuff for you. However, I won't sign a statement with
+  which I don't agree!
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{l34k1ng_m0dulu5_w1th0ut_b1n534rch_15_4ctu411y_345y}
+files:
+- dist/source.py
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 50037
+tags:
+- easy
+connection_info: nc {{host}} {{port}}

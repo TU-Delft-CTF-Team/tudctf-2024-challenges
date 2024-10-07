@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Index{% endblock %}
+
+{% block content %}
+<h2>The pumping lemma for regular languages</h2>
+<p>The pumping lemma for regular languages describes a property that all regular (and some non-regular) languages have. It states that for every regular language <code>L</code> there exists a pumping length <code>p</code> such that every word <code>w</code> in <code>L</code> of length at least <code>p</code> can be split into substrings <code>x</code>, <code>y</code> and <code>z</code> satisfying <code>|y| &ne; 0</code> and <code>|xy| &le; p</code> such that for every natural integer <code>i &ge; 0</code>, <code>xy<sup>i</sup>z</code> is also in <code>L</code>.</sup></p>
+<h5>But who cares?</h5>
+<p>Give me a number that's divisible by 3, but its binary representation isn't in the language of the following DFA. I'll wait.</p>
+<img src="/static/dfa.png">
+<div class="container pt-5">
+    <div class="row mb-3 text-center">
+        <div class="col">
+            <div class="col card mb-4 box-shadow" style="height: 100%;">
+                <div class="card-header">Submit a number</div>
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <p>Submit your number. We will check whether its binary representation is accepted by our DFA, and if so, you'll be able to verify whether it's divisible by 3.</p>
+                    <form method="POST" action="/sign">
+                        <div class="mb-3"><input type="text" name="number" placeholder="Your number" required /></div>
+                        <div class="mb-3"><button type="submit" class="btn btn-primary rounded-3">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 box-shadow" style="height: 100%;">
+                <div class="card-header">Verify the number</div>
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <p>After checking your number with the DFA, you can verify it here. If it is not divisible by 3, you'll get a special reward!</p>
+                    {% if number is none %}
+                        <p>Before verifying a number, please submit it using the card on the left.</p>
+                    {% else %}
+                        <p>You have submitted the number <code>{{ number }}</code>, which has been accepted by the DFA. Click the button below to verify it.</p>
+                    {% endif %}
+                    <form method="POST" action="/verify">
+                        <div class="mb-3"><button type="submit" class="btn btn-primary rounded-3" {% if number is none %}disabled{% endif %}>Verify</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

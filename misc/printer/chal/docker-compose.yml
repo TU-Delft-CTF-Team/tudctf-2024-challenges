@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    restart: always
+    ports:
+      - "47526:50011/tcp"

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: XitterBackend
+  profiles:
+    active: dev
+
+jwt:
+  # NOTE: This secret has been changed on the deployed version.
+  # The vulnerability is not here. Sincerely, the challenge author.
+  # NB: No, it's not reverse psychology.
+  secret: TEST_SECRET
+
+#logging:
+#  level:
+#    org.springframework.security: TRACE

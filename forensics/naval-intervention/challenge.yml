@@ -1,0 +1,25 @@
+author: rstular
+category: forensics
+description: A big battle is on the horizon. Many ships are involved, but our spies
+  are suggesting that the enemy has hidden the identity of their flagship. Can you
+  help us identify it?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/naval_intervention.bin
+flags:
+- TUDCTF{h3y_what_th3_h3l1_h0w_d1d_y0u_f1nd_th4t}
+host: null
+image: null
+name: Naval Intervention
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- medium

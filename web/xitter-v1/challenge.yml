@@ -1,0 +1,25 @@
+name: Xitter v1
+author: rstular
+category: web
+description: We love Xeeting on the Xitter. Do you?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{h1dd3n_by_th3_cl13nt_sh0wn_by_th3_s3rv3r}
+state: visible
+version: '0.1'
+files:
+- dist/handout.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8880
+connection_info: http://{{host}}:{{port}}/
+tags:
+- beginner

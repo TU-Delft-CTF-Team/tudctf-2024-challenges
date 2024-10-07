@@ -1,0 +1,26 @@
+author: rstular
+category: reversing
+description: The coffee machine at the office has taken us hostage - it won't give
+  us any coffee until we solve its riddles. Can you help us find the password? <br
+  /><i>Run the challenge by executing <code>java Challenge</code></i> <br /><i>You
+  might want to use a Java decompiler for this one.</i>
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/Challenge.class
+flags:
+- TUDCTF{jav4_is_fun_and_3a5y_to_revers3}
+host: null
+image: null
+name: A cup of Java
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

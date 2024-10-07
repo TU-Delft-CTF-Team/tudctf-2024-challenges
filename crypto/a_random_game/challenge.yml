@@ -1,0 +1,25 @@
+name: A Random Game
+author: ksaweryr
+category: crypto
+description: Can you beat me 10 times at my own game? I'll even allow the use of randcrack.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{wh0_n33d5_r4ndr4ck_4nyw4y5}
+files:
+- dist/challenge.py
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 50021
+tags:
+- hard
+connection_info: nc {{host}} {{port}}

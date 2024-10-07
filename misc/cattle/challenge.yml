@@ -1,0 +1,26 @@
+name: Cattle
+author: rstular
+category: misc
+description: We like all sorts of animals. We love cows the most, and spiders the
+  least. Can you find the flag?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{th3_AI_c4n_b3_pr3tty_3asy_t0_f00l}
+state: visible
+version: '0.1'
+files:
+- dist/cattle.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8888
+connection_info: http://{{host}}:{{port}}/
+tags:
+- medium

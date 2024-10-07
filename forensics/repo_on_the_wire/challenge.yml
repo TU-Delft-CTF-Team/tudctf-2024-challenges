@@ -1,0 +1,29 @@
+author: ksaweryr
+category: forensics
+description: 'One of TU Delft''s hackers (codename: "Agent 0xba115") managed to infiltrate
+  internal network of De Haagse Hogeschool and download a repository containing source
+  code of a critical piece of their infrastracture. Unfortunately, he spilled a free
+  coffee acquired using [REDACTED]''s employee card over his laptop and lost all his
+  data. Luckily, we still have a dump of network communication between his machine
+  and HHs git server. Can you help us recover the secrets hidden in that repository?'
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/capture.pcapng
+flags:
+- TUDCTF{it5_2024_u53_55h_4nd_n0t_g1t_pr0t0c01}
+host: null
+image: null
+name: Repo on the wire
+no_docker: true
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- easy

@@ -1,0 +1,22 @@
+name: Sanity Check
+author: TU Delft CTF Team
+category: misc
+description: Easy one to get you started :) Enter the flag at the back of the badge
+  to get started.
+value: 500
+type: ecsc
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{2024-10-05}
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+tags:
+- beginner

@@ -1,0 +1,26 @@
+author: ksaweryr
+category: misc
+description: The rumors say there's a bunch of suspicious looking QR codes hidden
+  on ctf.tudc.tf, ctf.ewi.tudelft.nl and in the room you're currently in. Find all
+  of them (actually just 7 suffice), extract their text contents and combine them
+  to get the flag!
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/utils.py
+flags:
+- TUDCTF{g0_t0uch_gr455}
+host: null
+image: null
+name: Catch them all!
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- easy

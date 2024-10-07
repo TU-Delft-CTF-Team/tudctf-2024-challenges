@@ -1,0 +1,26 @@
+author: rstular
+category: reversing
+description: At this point, we're ready to give up - it seems like the thing has a
+  mind of its own. Just to save the environment, we're giving it the one last try
+  before we throw it away. <br /><i>Run the challenge by executing <code>java Challenge</code></i>
+  <br /><i>You might want to use a Java decompiler for this one.</i>
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/Challenge.class
+flags:
+- TUDCTF{d4nc1ng_and_shuffl1ng_th0s3_l1sts_l1k3_1ts_2010}
+host: null
+image: null
+name: A jug of Java
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

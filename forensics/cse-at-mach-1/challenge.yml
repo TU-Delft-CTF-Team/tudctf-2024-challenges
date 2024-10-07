@@ -1,0 +1,25 @@
+author: rstular
+category: forensics
+description: We have managed to intercept a dead-drop USB transfer between two CSE
+  professors. Word on the street is, they're both avid Windows users. Can you help
+  us figure out what they are hiding?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/deaddrop.bin
+flags:
+- TUDCTF{l0g1c_15_N0t_0bv1ous}
+host: null
+image: null
+name: CSE @ mach 1
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- intermediate

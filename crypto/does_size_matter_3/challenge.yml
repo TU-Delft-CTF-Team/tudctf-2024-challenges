@@ -1,0 +1,24 @@
+author: ksaweryr
+category: crypto
+description: I just didn't feel secure enough with such a small 16-bit public exponent,
+  I prefer it being as big as the modulus.
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/challenge.txt
+flags:
+- TUDCTF{sm4ll_d_15_n0_g00d}
+host: null
+image: null
+name: Does size matter 3?
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- easy

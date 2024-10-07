@@ -1,0 +1,4 @@
+# Our security address
+Contact: mailto:ctf-ewi@tudelft.nl
+
+# However, this security.txt will likely not be necessary as we use a proprietary secret encryption scheme to hide customer data. Also, we do not expose our admin port 5555 to the public.

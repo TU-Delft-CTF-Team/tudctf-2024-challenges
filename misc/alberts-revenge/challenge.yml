@@ -1,0 +1,24 @@
+name: Albert's revenge
+author: rstular
+category: misc
+description: The chase continues. Let's hope he doesn't get away this time.
+value: 500
+type: ecsc
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{ALB3RT_W45_R3LAT1V3LY_C0OL}
+files:
+- dist/alberts_revenge.pcapng
+- dist/private_key
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+tags:
+- medium

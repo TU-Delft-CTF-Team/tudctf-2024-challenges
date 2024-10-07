@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webšop</title>
+    <meta charset="utf-8" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 24px;
+      }
+
+      h2 {
+        color: #333;
+        font-size: 20px;
+      }
+
+      .product {
+        background-color: white;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        justify-content: space-between;
+      }
+
+      img {
+        width: 100%;
+        max-width: 100%;
+        height: 200px;
+      }
+
+      .container {
+        max-width: 60%;
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to our webšop!</h1>
+      <p>Here you can buy all the things you need.</p>
+
+      <h2>Your account</h2>
+      <p>You currently own:</p>
+      <ul>
+        <!-- Your goal is to buy the flag. If you buy the flag, it will be shown to you. -->
+        {% for product in user.products %} {% if product.name == "Flag" %}
+        <li>Flag - <b>{{ flag }}</b></li>
+        {% else %}
+        <li>{{ product.name }}</li>
+        {% endif %} {% endfor %}
+      </ul>
+
+      <p>Your balance: ${{ user.balance }}</p>
+
+      <h2>Products</h2>
+
+      <!-- Each product should have a price, title, description and an image -->
+      {% for product in products %}
+      <div class="product">
+        <form method="post">
+          <div>
+            <h3>{{ product.name }}</h3>
+            <p>Price: ${{ product.price }}</p>
+            <p>Description: {{ product.description }}</p>
+            <input type="hidden" name="product_id" value="{{ product.id }}" />
+            <input
+              type="hidden"
+              name="product_price"
+              value="{{ product.price }}"
+            />
+            <button type="submit">Buy</button>
+          </div>
+        </form>
+        <div>
+          <img
+            src="{{ url_for('static', path='/products/' + product.image) }}"
+          />
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <script>
+      {% if message %}
+      alert("{{ message }}");
+      {% endif %}
+    </script>
+  </body>
+</html>

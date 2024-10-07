@@ -1,0 +1,26 @@
+name: Xitter v2
+author: rstular
+category: web
+description: It seems that Xitter 1 was not secure enough. Let's see if you can break
+  Xitter 2.
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{insecure_APIs_are_generally_considered_to_be_a_bad_idea}
+state: visible
+version: '0.1'
+files:
+- dist/handout.zip
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 8880
+connection_info: http://{{host}}:{{port}}/
+tags:
+- easy

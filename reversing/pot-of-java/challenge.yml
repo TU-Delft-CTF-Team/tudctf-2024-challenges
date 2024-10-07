@@ -1,0 +1,25 @@
+author: rstular
+category: reversing
+description: The coffee machine at the office is STILL acting up. Can you help us
+  solve the next riddle? <br /><i>Run the challenge by executing <code>java Challenge</code></i>
+  <br /><i>You might want to use a Java decompiler for this one.</i>
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/Challenge.class
+flags:
+- TUDCTF{i_th0ught_this_w4s_t3a}
+host: null
+image: null
+name: A pot of Java
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

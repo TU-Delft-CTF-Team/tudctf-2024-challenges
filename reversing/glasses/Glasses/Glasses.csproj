@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net481</TargetFramework>
+    <Version>4.20</Version>
+    <Company>TU Delft CTF Team</Company>
+    <Product>Glasses</Product>
+  </PropertyGroup>
+
+</Project>

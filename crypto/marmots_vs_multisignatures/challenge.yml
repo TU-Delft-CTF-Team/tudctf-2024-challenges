@@ -1,0 +1,32 @@
+name: Marmots vs Multisignatures
+author: ksaweryr
+category: crypto
+description: The Marmot Intelligence, Informatics, Intervention, Investigation & Interception
+  Institute (MI6) intercepted network traffic between members of Coati Intelligence
+  Agency (CIA) using a multi-signature scheme to sign important messages. What the
+  coatis don't know is that their implementation of the algorithm includes a backdoor
+  planted by an agent of MI6. Now, as part of the Operation Marmots vs Multisignatures
+  (Operation MVM), the marmots want to recover the private key of coati agent with
+  ID `5e547334-68c1-4ca2-9748-57f560372648`. Help them perform this task so that they
+  can impersonate the coati agents later!
+value: 500
+type: ecsc
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{L3ngthy_L4m3_L3tt3r5}
+files:
+- dist/dump.pcapng
+- dist/client.py
+- dist/server.py
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+tags:
+- hard

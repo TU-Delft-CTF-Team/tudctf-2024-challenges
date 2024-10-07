@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👹</text></svg>">
+    <title>Shreksy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ced700;
+            color: #5f620c;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        nav {
+            display: flex;
+            justify-content: right;
+            background-color: #5f620c;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #A2E05E;
+        }
+        .content {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            text-shadow: #ced700 1px 0 10px;
+        }
+        .content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #5f620c;
+        }
+        .content p {
+            font-size: 20px;
+            color: #5f620c;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .content a {
+            color: black;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        form {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 10px;
+            align-items: center;
+        }
+
+        form label {
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        form input {
+            padding: 5px;
+            width: 100%;
+        }
+
+        form button {
+            grid-column: 2 / 3;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #5f620c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .shrek {
+            position: absolute;
+            bottom: 78px;
+            right: 0;
+            width: auto;
+            height: 50%;
+            z-index: -1;
+        }
+    </style>
+    <script>
+        function encrypt(donkey){function dragon(Dragon){const Shrek=new TextEncoder(),Farquaad=Shrek['encode'](donkey);let Donkey=BigInt(0x0);for(let Fiona=0x0;Fiona<Farquaad['length'];Fiona++){Donkey=(Donkey<<BigInt(0x8))+BigInt(Farquaad[Fiona]);}return Donkey;}function shrek(fIona,dOnkey,sHrek){let dRagon=0x1n;fIona=fIona%sHrek;while(dOnkey>0x0n){dOnkey%0x2n===0x1n&&(dRagon=dRagon*fIona%sHrek),dOnkey=dOnkey/0x2n,fIona=fIona*fIona%sHrek;}return dRagon;}const fiona=0x5n,farquaad=0x8d5defaaeb4ac0f8c7fa16fdd11483dfa8781bf9952d78c0f240c2b27526487fb3d6c9ae25e077bd90e1cb83b33ca359409cf1c16c4043b66e61f7ebb16ffe5be4c2ec95bb1ff33fd06d35a1686bd7ad819fb55b6563267065bac60a02634ed6295bcd53f025c94f8ffd5832f6885fa08504c0c4e09d81b0f4ef432313177434f23091ff642e15fbdf99464926f696e95108258a82fe5c6f7ce149e892b02ac797ea5705c1a6517cf7b80e835bd91ab6a1110917318bb7972ae6d6092d82805c6dfb3cdd1bdc0b871c367c165f9076f9abeead790e4bcc778ee7897bff9228e073fc9f0391c0eed9e61815bfeb57608b0e7c3909b74358dbb7d962042b5bb3bdn;return shrek(dragon(donkey),fiona,farquaad).toString(16);}
+
+        function handleSubmit(event) {
+            event.preventDefault();
+
+            console.log("submitting")
+
+            const encryptedData = {
+                id: encrypt(document.getElementById("id").value),
+                name: encrypt(document.getElementById("name").value),
+                subscription: encrypt(document.getElementById("subscription").value),
+                bank_number: encrypt(document.getElementById("bank_number").value),
+            };
+
+            console.log(encryptedData)
+
+            // Send a POST request with the modified data
+            fetch('/buy', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(encryptedData)
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/screenshot">Screenshot</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/buy">Buy</a>
+    </nav>
+    <div class="content">
+        <h1>Buy Shreksy</h1>
+        <div class="form-container">
+            <form action="/buy" onsubmit="handleSubmit(event)">
+                <label for="id">ID</label>
+                <input type="text" id="id" name="id">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="subscription">Subscription</label>
+                <input type="text" id="subscription" name="subscription">
+
+                <label for="bank_number">Bank number</label>
+                <input type="text" id="bank_number" name="bank_number">
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Shreksy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Logging out...</title>
+  </head>
+  <body>
+    <h1>Logging out...</h1>
+    <script>
+      // Redirect to the login page after 2 seconds
+      localStorage.removeItem("janky-token");
+      window.location.href = "/login";
+    </script>
+  </body>
+</html>

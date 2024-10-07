@@ -1,0 +1,24 @@
+author: maxdem
+category: stego
+description: I found the lyrics to a song that looks incredibly emotional and relatable.
+  Can you help me find the listenable version?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/lyrics.zabw
+flags:
+- TUDCTF{https://tinyurl.com/muuvw3vk}
+host: null
+image: null
+name: Good music
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- beginner

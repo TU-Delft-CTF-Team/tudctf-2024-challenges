@@ -1,0 +1,26 @@
+name: Heaps
+author: ksaweryr
+category: pwn
+description: You've heard of binary heaps, binomial heaps, Fibonacci heaps, leftist
+  heaps, glibc heap... But have you heard of heaps on a heap?
+value: 500
+type: kubernetes
+image: null
+protocol: null
+host: null
+flags:
+- TUDCTF{m4ny_h34p5_tw0_t3chniqu35_0n3_fl4g}
+files:
+- dist/heaps.tgz
+state: visible
+version: '0.1'
+extra:
+  n1: 8
+  n2: 7
+  power: 1.5
+  initial: 500
+  minimum: 50
+  exposed_port: 5000
+connection_info: nc {{host}} {{port}}
+tags:
+- hard

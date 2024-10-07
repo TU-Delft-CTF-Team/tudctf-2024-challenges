@@ -1,0 +1,1 @@
+../chal/allowed_script.py

@@ -1,0 +1,26 @@
+author: rstular
+category: reversing
+description: A legendary dragon has been guarding a vast treasure trove deep within
+  the Ethereum blockchain. The dragon's magic has woven intricate spells into the
+  contracts, protecting its hoard from any who dare to claim it. Can you unravel the
+  dragon's spells and claim the treasure for yourself?
+extra:
+  initial: 500
+  minimum: 50
+  n1: 8
+  n2: 7
+  power: 1.5
+files:
+- dist/challenge.bin
+flags:
+- TUDCTF{i_l0v3_3vm_1_l0v3_bl0ckch41n_1_l0ve_r3v3rsing_1_l0ve_advanced_encryption}
+host: null
+image: null
+name: Secret Ethereum Application
+protocol: null
+state: visible
+type: ecsc
+value: 500
+version: '0.1'
+tags:
+- hard

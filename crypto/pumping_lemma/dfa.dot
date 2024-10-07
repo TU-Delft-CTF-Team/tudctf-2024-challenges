@@ -1,0 +1,14 @@
+digraph dfa {
+    rankdir=LR;
+    0 [label = <S<sub>0</sub>>, shape = doublecircle];
+    1 [label = <S<sub>1</sub>>, shape = circle];
+    2 [label = <S<sub>2</sub>>, shape = circle];
+    n0 [label = "", shape = none, height = 0, width = 0];
+    n0 -> 0;
+    0 -> 0 [label = "0"];
+    0 -> 1 [label = "1"];
+    1 -> 2 [label = "0"];
+    1 -> 0 [label = "1"];
+    2 -> 1 [label = "0"];
+    2 -> 2 [label = "1"];
+}
